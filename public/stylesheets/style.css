@@ -1,0 +1,20 @@
+html,
+body {
+  min-height: 100%;
+  font-family: display;
+  background-color: theme('colors.black');
+  color: theme('colors.white');
+}
+
+@font-face {
+  font-family: 'display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('standard-graf_regular'), url('../fonts/standard-graf_regular.woff') format('woff');
+}
+
+.grainy-bw {
+  filter: saturate(150) grayscale(1) contrast(10) invert(1);
+  /* transform: scaleX(-1); */
+  /* mix-blend-mode: multiply; */
+}
