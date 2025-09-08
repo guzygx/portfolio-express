@@ -1,0 +1,9 @@
+a.green-link {
+  color: var(--green);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+a.green-link:hover {
+  text-decoration: underline;
+}

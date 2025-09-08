@@ -1,5 +1,6 @@
 @import "./utils/position.css";
 @import "./utils/text.css";
+@import "./elements/links.css";
 
 :root {
   --black: #000000;
@@ -17,12 +18,6 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   margin: 0;
-}
-
-a {
-  color: var(--green);
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: none;
 }
 
 @font-face {

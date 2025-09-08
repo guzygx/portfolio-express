@@ -18,12 +18,12 @@
   margin-top: 10vh;
 }
 
-.w-s {
+.width-s {
   width: 50vw;
 }
 
 @media screen and (max-width: 992px) {
-  .w-s {
+  .width-s {
     width: 85vw;
   }
 }
